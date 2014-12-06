@@ -3,12 +3,12 @@
 //Let's think about the nature of this quiz app first. We're going to be creating lots of user objects, and we're
 //also going to be creating lots of Question objects. Those would make two perfectly good constructors. 
 
-//Create a User constructor that accepts name, email, password, and totalScore paramters and set them appropriatly
+//Create a User constructor that accepts name, email, password, and totalScore parameters and set them appropriatly
 
   //code here
 
 
-//Create a Question constructor that accepts title, answersArray, rightAnswer, and difficulty paramters
+//Create a Question constructor that accepts title, answersArray, rightAnswer, and difficulty parameters
 
   //code here
 
@@ -18,7 +18,7 @@
   //code here
 
 
-//Let's say three people signed up for our service, create 3 intances of User and add each to the users Array
+//Let's say three people signed up for our service, create 3 instances of User and add each to the users Array
 
   //code here
 
