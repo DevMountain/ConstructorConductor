@@ -12,4 +12,3 @@ ConstructorConductor
   - what the ‘this’ keyword does and be able to use it
   - what the ‘new’ keyword does and what the JavaScript compiler does when a function is called with the ‘new’ keyword
   - what prototypes are in JavaScript and be able to add a method on a functions prototype and create instances of that function that invoke the prototypes method
-  - basic prototypal inheritance in JavaScript
