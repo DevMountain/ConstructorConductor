@@ -6,26 +6,43 @@
 //Create a User constructor that accepts name, email, password, and totalScore parameters and set them appropriatly
 
   //code here
+  var User = function(name, email, password, totalScore){
+  	this.name = name;
+  	this.email = email;
+  	this.password = password;
+  	this.totalScore = totalScore;
+  }
 
 
 //Create a Question constructor that accepts title, answersArray, rightAnswer, and difficulty parameters
 
   //code here
+  var Question = function(title, answersArray, rightAnswer, difficulty){
+  	this.title = title;
+  	this.answersArray = answersArray;
+  	this.rightAnswer = rightAnswer;
+  	this.difficulty = difficulty;
+  }
 
 
 //Create a users Array which is going to hold all of our users.
 
   //code here
+  var users = [];
 
 
 //Let's say three people signed up for our service, create 3 instances of User and add each to the users Array
 
   //code here
+  users.push(User('Matt', 'matthew.g.ecklund@gmail.com', 'password', 97));
+  users.push(User('Jess', 'jess@gmail.com', 'password', 98));
+  users.push(User('Abby', 'abbygirl@theecklundfamily.com', 'password', 94));
 
 
 //Create a questions Array which is going to hold all of our questions
 
   //code here
+  var questions = [];
 
 
 //Now, let's say we wanted to create a quiz about JavaScript. Create three instances of Question which contain the following data
