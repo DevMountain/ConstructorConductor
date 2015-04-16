@@ -34,9 +34,9 @@
 //Let's say three people signed up for our service, create 3 instances of User and add each to the users Array
 
   //code here
-  users.push(User('Matt', 'matthew.g.ecklund@gmail.com', 'password', 97));
-  users.push(User('Jess', 'jess@gmail.com', 'password', 98));
-  users.push(User('Abby', 'abbygirl@theecklundfamily.com', 'password', 94));
+  users.push(new User('Matt', 'matthew.g.ecklund@gmail.com', 'password', 97));
+  users.push(new User('Jess', 'jess@gmail.com', 'password', 98));
+  users.push(new User('Abby', 'abbygirl@theecklundfamily.com', 'password', 94));
 
 
 //Create a questions Array which is going to hold all of our questions
@@ -52,14 +52,50 @@
 //Fill in the rest of the required data as you see appropriate.
 
   //code here
+  var question1 = new Question('T/F: Inheritance is achieved in JavaScript through Prototypes?', ['T', 'F'], 'T', 7);
+  var question2 = new Question('T/F: JavaScript is just a scripting version of Java', ['T', 'F'], 'F', 3);
+  var question3 = new Question("T/F: In Javascript, == doesn't check 'type' but just the value - where === checks type and value",  ['T', 'F'], 'T', 5);
 
 
 //Now push all of your instances of Question into the questions Array
 
   //code here
+  questions.push(question1);
+  questions.push(question2);
+  questions.push(question3);
 
 console.log('My users Array and my questions arrray are ...');
 //Now loop console.log your users array and your questions array and verify that they're both holding the right data.
 
   //code here
+  for (i in users){
+  	console.log(users[i]);
+  }
+
+  for (i in questions){
+  	console.log(questions[i]);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
