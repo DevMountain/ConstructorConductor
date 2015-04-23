@@ -16,7 +16,7 @@ var User = function(name, email, pw){
   //code here
 
 
-//Now create and push into your users array 3 seperate instances of User using the data from above in that exact order
+//Now create and push into your users array 3 separate instances of User using the data from above in that exact order
 
   //code here
 
