@@ -3,7 +3,7 @@
 //Let's think about the nature of this quiz app first. We're going to be creating lots of user objects, and we're
 //also going to be creating lots of Question objects. Those would make two perfectly good constructors. 
 
-//Create a User constructor that accepts name, email, password, and totalScore parameters and set them appropriatly
+//Create a QuizUser constructor that accepts name, email, password, and totalScore parameters and set them appropriatly
 
   //code here
 
@@ -13,7 +13,7 @@
   //code here
 
 
-//Create a users Array which is going to hold all of our users.
+//Create a quizUsers Array which is going to hold all of our users.
 
   //code here
 
